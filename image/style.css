@@ -1,0 +1,167 @@
+/* Universal Area */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1280px;
+    height: 1653px;
+    font-family: "Arial Black";
+    font-size: 16px;
+    margin:0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* head */
+.head {
+    margin-bottom: 0px;
+}
+.head .title{
+    width: 1280px;
+    height: 115px; 
+    margin:0px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.head .title .title-list
+{
+    display: inline-block;
+    margin: 0 40px;
+ 
+}
+.title-list .left
+{
+    display:block;
+    margin:0px auto;
+}
+ .title .midbot
+{
+    margin: 10px 40px;
+    font-size: 16px;
+    background: black;
+    text-align: center;
+    vertical-align:bottom;
+}
+.title .midbot a{
+    color:white;
+}
+ .title .rightbot
+{
+    text-align:right;
+    
+}
+.title .rightbot a{
+    margin: 10px 30px;
+    text-align: right;
+    color:white;
+}
+
+
+/* body */
+.body {
+    margin-bottom: 0px;
+}
+.body .top{
+    width: 1280px;
+    height: 427px; 
+    margin:0px;
+    background-color: gainsboro; 
+    
+}
+.body .top .title
+{
+    font-size: 25px;
+    text-align: center;
+}
+.top .pics
+{
+    list-style:none;   
+    text-align: center;
+}
+.pics .pic
+{
+   display: inline-block;
+   margin:0 auto;
+   text-align: center;
+   font-size: 22px;
+}
+.pics .pic .album{
+    text-align: center;
+    vertical-align:center;
+    width: 270px;
+    height: 270px; 
+    margin:15px 40px 15px 40px;
+}
+
+.body .down
+{
+    width: 1280px;
+    height: 997px; 
+    margin:5px;
+    background-image: white;
+}
+.body .down .title
+{
+    font-size: 25px;
+    text-align: center;
+    margin:15px;
+}
+.picts .meb
+{
+    display: inline-block;
+    font-size: 22px;
+    margin:10px 50px;
+    text-align: center;
+}
+.picts .meb .meber
+{
+    text-align: center;
+    width: 230px;
+    height: 230px; 
+    margin:10px 40px 10px 40px;
+}
+
+
+/* footer */
+.footer
+{
+    width: 1280px;
+    height: 131px; 
+    margin:0px;
+    background-color:black; 
+    display: flex;
+    align-items: center;
+}
+.footer .down{
+    
+    text-align: center;
+    margin:50px auto;
+}
+.footer .down .app{
+    
+    display: inline-block;
+    font-size: 12px;
+    margin:5px 10px;
+    vertical-align:text-bottom;
+    text-align: center;
+    color :white;
+
+}
+.footer .down .word{
+    margin:5px 20px;
+    vertical-align:center;
+}
+.footer .down .app .apppic{
+    text-align: center;
+    vertical-align:bottom;
+    width: 127px;
+    height: 41px; 
+}
+
+
